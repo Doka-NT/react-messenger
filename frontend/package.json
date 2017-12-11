@@ -9,11 +9,12 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.2",
+    "material-ui": "^1.0.0-beta.23",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
-    "uikit": "^3.0.0-beta.35",
+    "typeface-roboto": "0.0.45",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
