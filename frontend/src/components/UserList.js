@@ -6,14 +6,14 @@ import ListItemText from "material-ui/es/List/ListItemText";
 export default class UserList extends React.Component {
 
     render() {
-        const users = [0, 1, 2];
+        const users = ["Ivanov I.I", "Petrov A.S", "Smirnov V.A.", "Root S.V"];
 
         return (
             <List>
                 {users.map(value => (
                     <ListItem key={value} dense button>
                         <i className="material-icons" style={{color: 'black'}}>person</i>
-                        <ListItemText primary={`Foo bar`} />
+                        <ListItemText primary={value} />
                     </ListItem>
                 ))}
             </List>
