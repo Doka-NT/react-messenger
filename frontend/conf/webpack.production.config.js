@@ -5,10 +5,10 @@ export default new Config().extend('conf/webpack.base.config.js').merge({
     output: {
         filename: 'bundle.min.js'
     },
-    plugins: [
-        new webpack.optimize.UglifyJsPlugin({
-            compress: {
-                warnings: true
-            }
-        })]
+    // plugins: [
+    //     new webpack.optimize.UglifyJsPlugin({
+    //         compress: {
+    //             warnings: true
+    //         }
+    //     })]
 });

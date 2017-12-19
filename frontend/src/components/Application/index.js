@@ -1,7 +1,7 @@
 import React from 'react';
-import Messenger from "./Messenger";
-import MessageObject from "../objects/Message";
-import User from "../objects/User";
+import Messenger from "../Messenger";
+import MessageObject from "../../objects/Message";
+import User from "../../objects/User";
 
 export default class Application extends React.Component {
     constructor(props) {

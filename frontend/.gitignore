@@ -2,3 +2,4 @@ node_modules/
 public/index.html
 public/bundle.js
 public/bundle.min.js
+public/styles.css

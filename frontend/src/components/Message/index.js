@@ -1,7 +1,7 @@
 import React from 'react';
 import Typography from "material-ui/es/Typography/Typography";
 import PropTypes from "prop-types";
-import MessageObject from '../objects/Message';
+import MessageObject from '../../objects/Message';
 
 export default class Message extends React.Component {
     render() {

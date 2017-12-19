@@ -1,8 +1,8 @@
-import NavBar from "./NavBar";
+import NavBar from "../NavBar";
 import React from 'react';
-import UserList from "./UserList";
-import MessageList from './MessageList';
-import MessageBox from "./MessageBox";
+import UserList from "../UserList";
+import MessageList from '../MessageList';
+import MessageBox from "../MessageBox";
 import PropTypes from 'prop-types';
 
 export default class Messenger extends React.Component {
